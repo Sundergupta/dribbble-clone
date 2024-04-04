@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h1>Dribbble</h1>
+          <p>Discover the world's top Designers & Creatives.</p>
+        </div>
+        <div class="form-container">
+          <h2>Sign up to Dribbble</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="" required>
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" value="" required>
+            <!-- <small>Username has already been taken</small> -->
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" minlength="6" required>
+            <small>6+ characters</small>
+            
+            <div class="agreement">
+              <input type="checkbox" id="agreement" name="agreement" required>
+              <label for="agreement">Creating an account means you're okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</label>
+            </div>
+            
+            <button type="submit"><a href="Profile_image.html">Create Account</a></button>
+          </form>
+          <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+        </div>
+        <div class="footer">
+          <p>Art by Peter Tarka</p>
+        </div>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>

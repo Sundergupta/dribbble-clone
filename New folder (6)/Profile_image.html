@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="profile_image.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h2>Welcome! Let's create your profile</h2>
+      <p>Let others get to know you better! You can do these later</p>
+
+      <div class="avatar-section">
+        <h3>Add an avatar</h3>
+        <div class="avatar-container">
+          <img id="avatar-image" src="https://via.placeholder.com/150" alt="Avatar">
+          <div class="avatar-overlay">
+            <span>Choose Image</span>
+            <input type="file" id="avatar-input" accept="image/*">
+          </div>
+        </div>
+        <p>Or choose one of our defaults</p>
+      </div>
+
+      <div class="location-section">
+        <h3>Add your location</h3>
+        <input type="text" id="location-input" placeholder="San Francisco">
+      </div>
+       <a href="bring.html">
+      <button id="next-button">Next</button>
+    </a>
+      <p>or Press RETURN</p>
+    </div>
+  </div>
+
+  <script src="profile_image.js"></script>
+</body>
+</html>
